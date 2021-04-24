@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/69fffdb4ca.js" crossorigin="anonymous"></script>
+    <title>Steve Olson Portfolio</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <nav>
+      <img class="logo" src="images/html-css-javascript-logo.png" 
+      alt="Steve Olson Logo"></img>
+      
+      <ul class="nav-bar" id="nav-list">
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="https://github.com/stevepo74">GitHub</a></li>
+        <li><a href="pages/contact.html">Contact Me</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+    
+    <div class="hero">
+      <div class="hero-info">
+        <h1 id="name">Steve Olson</h1>
+        <p>Hello, my name is Steve Olson and I am a web developer. I 
+          enjoy creating new things and am always up for a challenge. 
+          Watching ideas and concepts come to life is one of my favorite 
+          parts of development. As a lifelong learner, I look forward to 
+          expanding my skills as well as seeking out new ones!</p>
+        <div class="styled-break"></div>
+      <div class="button">hire me</div>
+      </div>
+      <div>
+        <img 
+          class="hero-image"
+          src="images/computer-worker.png" 
+          alt="computer worker graphic"
+        />
+      </div>
+    </div>
+
+    <section>
+      <div class="about-me">
+        <img 
+          class="avatar" 
+          src="images/steve-p-olson-avatar.png"
+          alt="Steve Olson headshot"
+        />
+      </div>
+      <div class="info">
+        <h2><a name="about-me">About Me</a></h2>
+        <p>Born and raised in Minnesota, I discovered a passion 
+          for coding watching my software developer friend do his work.</p>
+      </div>
+      
+      <div class="socials">
+        <i class="fas fa-user-circle"></i>
+        <i class="fas fa-bacon"></i>
+        <i class="fas fa-pizza-slice"></i>
+        <i class="fas fa-guitar"></i>
+        <i class="fas fa-icons"></i>
+      </div>
+    </section>
+    
+    <section>
+        <form>
+          <h2>Contact Me</h2>
+          <div class="input-section">
+            <div class="input-group">
+              <label for="first-name">First Name:</label>
+              <input type="text" name="first-name" id="first-name" value="John"></input>
+            </div>
+            <div class="input-group">
+              <label for="last-name">Last Name:</label>
+              <input type="text" name="last-name" id="last-name" value="Doe"></input>
+            </div>
+          </div> 
+          
+          <div class="input-section">
+            <input type="radio" id="office" name="office"></input>
+            <label for="office">Office</label>
+            <input type="radio" id="remote" name="remote"></input>
+            <label for="remote">Remote</label>
+            <input type="radio" id="other" name="other"></input>
+            <label for="other">Other</label>
+          </div>
+  
+          <div class="input-section">
+            <input type="checkbox" id="contract" name="contract" value="contract">
+            <label for="contact">Contract Work</label>
+            <input type="checkbox" id="full-time" name="full-time" value="full-time">
+            <label for="full-time">Full-Time</label>
+            <input type="checkbox" id="sponsorship" name="sponsorship" value="sponsorship">
+            <label for="sponsorship">Sponsorship</label>
+          </div>
+  
+          <input class="button" type="submit" value="Submit"></input>
+        </form>
+      </section>
+    <footer>
+      <ul style="list-style-type: square; line-height: 30px;">
+        <li><a href="">About Me</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="https://github.com/stevepo74">GitHub</a></li>
+      </ul>
+    </footer>
+    <script src="src/index.js"></script>
+  </body>
+</html>
